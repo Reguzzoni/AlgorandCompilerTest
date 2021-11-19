@@ -10,12 +10,12 @@ from pyteal import compileTeal, Mode
 from Vote import approval_program, clear_state_program
 
 # user declared account mnemonics
-creator_mnemonic = "since neutral seek fragile movie pluck about scatter lecture present dilemma avocado venue horse obey there sort mimic resist remember body theory exchange able page"
-user_mnemonic = "since neutral seek fragile movie pluck about scatter lecture present dilemma avocado venue horse obey there sort mimic resist remember body theory exchange able page"
+creator_mnemonic = ""
+user_mnemonic = ""
 
 # user declared algod connection parameters. Node must have EnableDeveloperAPI set to true in its config
 algod_address = "http://127.0.0.1:54747"
-algod_token = "51e86a5d343bd7792c5c4032d6644e2084dfa05864c29cf7f160ce430515e306"
+algod_token = ""
 
 # helper function to compile program source
 def compile_program(client, source_code):
